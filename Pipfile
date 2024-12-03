@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+boto3 = "*"
+python-dotenv = "*"
+selenium = "*"
+
+[dev-packages]
+black = "*"
+
+[requires]
+python_version = "3.13"
+
+[scripts]
+start = "python __main__.py"
+fmt = "black ."
